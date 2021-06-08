@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="2" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.12.0.0" clr-version="4.0.30319.42000" start-time="2021-05-28 05:44:31Z" end-time="2021-05-28 05:44:44Z" duration="12.637243">
+  <command-line><![CDATA[nunit3-console  mds.csproj --where="cat==NoRegresion"]]></command-line>
+  <filter>
+    <cat>NoRegresion</cat>
+  </filter>
+  <test-suite type="Project" id="1" name="mds.csproj" fullname="C:\automatizacion\airbus-tests\mds\mds.csproj" runstate="Runnable" testcasecount="2" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="3-1004" name="mds.exe" fullname="C:\automatizacion\airbus-tests\mds\bin\Debug\mds.exe" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-05-28T05:44:32.3982403Z" end-time="2021-05-28T05:44:44.1753388Z" duration="11.776360" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <environment framework-version="3.13.2.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19042.0" platform="Win32NT" cwd="C:\automatizacion\airbus-tests\mds" machine-name="LES008724" user="SYSTEM" user-domain="CORP" culture="es-ES" uiculture="en-US" os-architecture="x86" />
+      <settings>
+        <setting name="BasePath" value="C:\automatizacion\airbus-tests\mds\bin\Debug\" />
+        <setting name="DisposeRunners" value="True" />
+        <setting name="WorkDirectory" value="C:\automatizacion\airbus-tests\mds" />
+        <setting name="ActiveConfig" value="Debug" />
+        <setting name="ConfigNames" value="System.Collections.Generic.List`1[System.String]" />
+        <setting name="ImageRuntimeVersion" value="4.0.30319" />
+        <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+        <setting name="ImageRequiresX86" value="True" />
+        <setting name="RunAsX86" value="True" />
+        <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+        <setting name="TargetRuntimeFramework" value="net-4.0" />
+        <setting name="NumberOfTestWorkers" value="8" />
+      </settings>
+      <properties>
+        <property name="_PID" value="4112" />
+        <property name="_APPDOMAIN" value="domain-446320a1-mds.csproj" />
+      </properties>
+      <test-suite type="TestSuite" id="3-1005" name="mds" fullname="mds" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-05-28T05:44:32.4071427Z" end-time="2021-05-28T05:44:44.1753388Z" duration="11.766135" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="3-1006" name="Tests" fullname="mds.Tests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-05-28T05:44:32.4071427Z" end-time="2021-05-28T05:44:44.1753388Z" duration="11.765886" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="3-1000" name="LoginTests" fullname="mds.Tests.LoginTests" classname="mds.Tests.LoginTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-05-28T05:44:32.4111174Z" end-time="2021-05-28T05:44:44.1753388Z" duration="11.763814" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Category" value="Login" />
+            </properties>
+            <test-case id="3-1002" name="Test002" fullname="mds.Tests.LoginTests.Test002" methodname="Test002" classname="mds.Tests.LoginTests" runstate="Runnable" seed="245785970" result="Passed" start-time="2021-05-28T05:44:32.4523371Z" end-time="2021-05-28T05:44:44.1673153Z" duration="11.715209" asserts="0">
+              <properties>
+                <property name="Category" value="NoRegresion" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
